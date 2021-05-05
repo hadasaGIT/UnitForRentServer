@@ -18,4 +18,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UnitForRent.DAL\UnitForRent.DAL.csproj" />
+    <ProjectReference Include="..\UnitForRent.DTO\UnitForRent.DTO.csproj" />
+  </ItemGroup>
+
 </Project>
