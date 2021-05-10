@@ -63,14 +63,14 @@ namespace UnitForRent
             services.AddScoped<ITblSearchDAL, TblSearchDAL>();
             services.AddScoped<ITblUnitOwnerDAL, TblUnitOwnerDAL>();
 
-            //services.AddSwaggerGen(c =>
-            //{
-            //    c.SwaggerDoc("v1", new OpenApiInfo
-            //    {
-            //        Title = "My API",
-            //        Version = "v1"
-            //    });
-            //} );
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "My API",
+                    Version = "v1"
+                });
+            });
             //ff
         }
          
