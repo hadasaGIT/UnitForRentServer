@@ -13,9 +13,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using UnitForRent.BL;
 using UnitForRent.DAL;
-using UnitForRent.Models;
+using UnitForRent;
 using Microsoft.OpenApi.Models;
-
+using UnitForRent.DAL.Models;
 
 namespace UnitForRent
 {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace UnitForRent.Models
+namespace UnitForRent.DAL.Models
 {
     public partial class TblFeedback
     {

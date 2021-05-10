@@ -6,5 +6,6 @@ namespace UnitForRent.DTO
 {
     public class TblAnswersForRentDTO
     {
+
     }
 }

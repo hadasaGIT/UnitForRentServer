@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
-namespace UnitForRent.Models
+namespace UnitForRent.DAL.Models
 {
     public partial class UnitForRentContext : DbContext
     {
